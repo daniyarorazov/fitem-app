@@ -1,0 +1,139 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic');
+
+//Variables
+@white: #ffffff;
+@red: #FF365A;
+@black: #000000;
+@blue: #3F6BDE;
+//Mixines
+
+//Style
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.6s ease;
+
+}
+
+body {
+
+}
+
+
+
+//Header
+
+	.navbar {
+		padding-left: 106px;
+		padding-right: 106px;
+
+		//Navbar icon logo
+		&-brand {
+			img {
+				height: 70px;
+				width: 70px;
+			}
+		}
+		//Button for add new item 
+		.navbar-button-add-item {
+			width: 282px;
+			height: 52px;
+			background: #8000FF;
+			border-radius: 100px;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+			color: @white;
+			border: none;
+			font-size: 18px;
+			text-align: center;
+			margin-right: 40px;
+			font-weight: 600;
+			cursor: pointer;
+			&:hover {
+				transform: scale(1.05);
+			}
+		}
+		
+		//Button login
+		.navbar-button-login {
+			width: 195px;
+			height: 52px;
+			background: @white;
+			border-radius: 100px;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+			border: none;
+			position: absolute;
+			margin-right: 100px;
+			font-weight: 600;
+			cursor: pointer;
+			transition: 0.6s ease;
+			&:hover {
+				width: 370px;
+				-webkit-transform: translateX(15px);
+				   -moz-transform: translateX(15px);
+				    -ms-transform: translateX(15px);
+				     -o-transform: translateX(15px);
+				        transform: translateX(15px);
+			}
+		}
+
+		//Button register
+		.navbar-button-register {
+			width: 360px;
+			height: 52px;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+			background: @red;
+			border-radius: 100px;
+			color: @white;
+			border: none;
+			text-align: right;
+			font-weight: 600;
+			padding-right: 48px;
+			cursor: pointer;
+			transition: 0.6s ease;
+			&:hover {
+				
+			}
+		}
+
+		.navbar-button-user {
+			position: relative;
+			outline: none;
+			width: 180px;
+			height: 52px;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+			background: @white;
+			border-radius: 100px;
+			color: @black;
+			border: none;
+			text-align: right;
+			font-weight: 600;
+			cursor: pointer;
+			transition: 0.6s ease;
+			&-name {
+				margin-right: 25px;
+			}
+			&-icon {
+			padding-top: 14px;
+			padding-bottom: 17px;
+			padding-left: 14px;
+			padding-right: 14px;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+			background: @red;
+			border-radius: 100px;
+			color: @white;
+			border: none;
+			text-align: right;
+			font-weight: 600;
+			cursor: pointer;
+			transition: 0.6s ease;
+			}
+			&:hover {
+				
+			}
+		}}
+
+		//Header subblock
+			

@@ -1,0 +1,122 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic');
+
+//Variables
+@white: #ffffff;
+@red: #FF365A;
+@black: #000000;
+//Mixines
+
+//Style
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.6s ease;
+
+}
+
+input {
+	&:focus {
+		outline: none;
+	}
+}
+
+header {
+	.navbar {
+		padding-left: 106px;
+		padding-right: 106px;
+
+		//Navbar icon logo
+		&-brand {
+			img {
+				height: 70px;
+				width: 70px;
+			}
+		}
+	}
+}
+
+.block-login {
+	// background: url(../img/bg-for-login4.png);
+	background-color: @white;
+	height: 500px;
+	text-align: center;
+	&-title {
+		text-align: center;
+		font-size: 24px;
+		color: #5B71A0;
+		font-weight: 700;
+		padding-top: 20px;
+		padding-right: 170px;
+	}
+	&-email {
+		
+		&-subtitle {
+			display: block;
+			margin-right: 340px;
+			margin-top: 80px;
+			color: #5B71A0;
+			font-weight: 700;
+		}
+		&-input {
+			width: 380px;
+			height: 50px;
+			border-radius: 4px;
+			border: none;
+			box-sizing: border-box;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+			margin-top: 20px;
+			padding-left: 20px;
+			&:focus {
+				transform: translateY(-4px);
+			}
+		}
+	}
+	&-password {
+		&-subtitle {
+			display: block;
+			margin-right: 310px;
+			margin-top: 40px;
+			color: #5B71A0;
+			font-weight: 700;
+		}
+		&-input {
+			width: 380px;
+			height: 50px;
+			border-radius: 4px;
+			border: none;
+			box-sizing: border-box;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+			margin-top: 20px;
+			padding-left: 20px;
+			&:focus {
+				transform: translateY(-4px);
+			}
+		}
+	}
+	&-form {
+		// text-align: center;
+	
+		
+	}
+
+	&-button {
+		width: 380px;
+		height: 50px;
+		background: #6D62EB;
+		border: none;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+		border-radius: 4px;
+		color: @white;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin-top: 60px;
+		cursor: pointer;
+		&:hover {
+			box-shadow: 0px 0px 40px #6D62EB;
+		}
+	}
+}

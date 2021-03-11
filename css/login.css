@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  transition: 0.6s ease;
+}
+input:focus {
+  outline: none;
+}
+header .navbar {
+  padding-left: 106px;
+  padding-right: 106px;
+}
+header .navbar-brand img {
+  height: 70px;
+  width: 70px;
+}
+.block-login {
+  background-color: #ffffff;
+  height: 500px;
+  text-align: center;
+}
+.block-login-title {
+  text-align: center;
+  font-size: 24px;
+  color: #5B71A0;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-right: 170px;
+}
+.block-login-email-subtitle {
+  display: block;
+  margin-right: 340px;
+  margin-top: 80px;
+  color: #5B71A0;
+  font-weight: 700;
+}
+.block-login-email-input {
+  width: 380px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.block-login-email-input:focus {
+  transform: translateY(-4px);
+}
+.block-login-password-subtitle {
+  display: block;
+  margin-right: 310px;
+  margin-top: 40px;
+  color: #5B71A0;
+  font-weight: 700;
+}
+.block-login-password-input {
+  width: 380px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.block-login-password-input:focus {
+  transform: translateY(-4px);
+}
+.block-login-button {
+  width: 380px;
+  height: 50px;
+  background: #6D62EB;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.block-login-button:hover {
+  box-shadow: 0px 0px 40px #6D62EB;
+}
